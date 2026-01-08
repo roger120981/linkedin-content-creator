@@ -24,8 +24,8 @@ With this setup, users can:
 3. Navigate to the **"Auth"** tab
 4. Under **"Authorized redirect URLs for your app"**, add:
    ```
-   http://localhost:3001
-   http://localhost:5173
+   http://localhost:5000
+   http://localhost:5001
    ```
 5. Make sure these **Products** are enabled for your app:
    - **Sign In with LinkedIn using OpenID Connect**
@@ -103,8 +103,8 @@ LINKEDIN_CLIENT_SECRET=your_secret_here
 
 # Required - get from LinkedIn Developer Portal
 LINKEDIN_CLIENT_ID=your_client_id_here
-SERVER_PORT=3002
-REDIRECT_URI=http://localhost:3001
+SERVER_PORT=5001
+REDIRECT_URI=http://localhost:5000
 ```
 
 ### Frontend Environment

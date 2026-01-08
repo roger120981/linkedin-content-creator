@@ -63,8 +63,8 @@ GEMINI_API_KEY=your_gemini_api_key
 ### LinkedIn OAuth Setup
 1. Create an app at [LinkedIn Developers](https://www.linkedin.com/developers/apps)
 2. Add these OAuth 2.0 redirect URLs:
-   - `http://localhost:3001`
-   - `http://localhost:5000`
+   - `http://localhost:5000` (main app)
+   - `http://localhost:5001` (OAuth proxy server)
 3. Request the following permissions:
    - `openid`
    - `profile`

@@ -731,7 +731,7 @@ app.post('/api/linkedin/posts', async (req, res) => {
 app.get('/api/config', (req, res) => {
   res.json({
     clientId: CLIENT_ID,
-    redirectUri: process.env.REDIRECT_URI || 'http://localhost:3001',
+    redirectUri: process.env.REDIRECT_URI || 'http://localhost:5000',
   });
 });
 
