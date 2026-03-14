@@ -28,7 +28,7 @@ An AI-powered application for generating and scheduling engaging LinkedIn posts.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/linkedin-content-creator.git
+   git clone https://github.com/AgriciDaniel/linkedin-content-creator.git
    cd linkedin-content-creator
    ```
 
@@ -131,4 +131,4 @@ Join our community for tips, updates, and support:
 
 ## License
 
-This project is private and proprietary. All rights reserved.
+MIT License - see [LICENSE](LICENSE) for details.
