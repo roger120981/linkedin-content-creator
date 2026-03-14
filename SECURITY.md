@@ -8,12 +8,17 @@ If you discover a security vulnerability, please report it responsibly:
 2. Open a [GitHub Security Advisory](https://github.com/AgriciDaniel/linkedin-content-creator/security/advisories/new) on this repo
 3. Or contact the maintainer directly
 
+## Response Timeline
+
+- **Acknowledgment**: Within 72 hours of report
+- **Assessment**: Within 7 days with initial assessment
+
 ## Supported Versions
 
 Only the latest version receives security updates.
 
 ## Security Practices
 
-- No credentials or API keys are stored in this repository
-- Install scripts write only to user-level directories (`~/.claude/`)
-- Python dependencies install in isolated virtual environments
+- OAuth tokens are stored client-side only and never committed to the repository
+- API keys should be configured via environment variables, not hardcoded
+- The `.env` file is gitignored to prevent accidental credential exposure
